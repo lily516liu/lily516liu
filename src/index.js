@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Movie from "./components/Movie";
 import Navigation from "./components/Navigation";
+import Homepage from "./components/Homepage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,12 +16,9 @@ root.render(
     <Routes>
       <Route path="/lily516liu/about" element={<About />}></Route>
       <Route path="/lily516liu/movie" element={<Movie />}></Route>
-      <Route exact path="/lily516liu" element={<App />}></Route>
+      <Route exact path="/lily516liu" element={<Homepage />}></Route>
     </Routes>
   </BrowserRouter>
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/lily516liu/static/css/main.073c9b0a.css",
-    "main.js": "/lily516liu/static/js/main.9610343a.js",
+    "main.css": "/lily516liu/static/css/main.596c9657.css",
+    "main.js": "/lily516liu/static/js/main.9094360c.js",
     "static/js/787.56f9ea2f.chunk.js": "/lily516liu/static/js/787.56f9ea2f.chunk.js",
+    "static/media/logo.svg": "/lily516liu/static/media/logo.b82b1b346a5b540d3a8f2a7dadb8a0a0.svg",
+    "static/media/faq-outline.svg": "/lily516liu/static/media/faq-outline.26ab0847c243f7376fe0e175a7cf3941.svg",
+    "static/media/heart-outline.svg": "/lily516liu/static/media/heart-outline.757c2b9d7d719b7e09f51f3d20b4fa2a.svg",
     "index.html": "/lily516liu/index.html",
-    "main.073c9b0a.css.map": "/lily516liu/static/css/main.073c9b0a.css.map",
-    "main.9610343a.js.map": "/lily516liu/static/js/main.9610343a.js.map",
+    "main.596c9657.css.map": "/lily516liu/static/css/main.596c9657.css.map",
+    "main.9094360c.js.map": "/lily516liu/static/js/main.9094360c.js.map",
     "787.56f9ea2f.chunk.js.map": "/lily516liu/static/js/787.56f9ea2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9610343a.js"
+    "static/css/main.596c9657.css",
+    "static/js/main.9094360c.js"
   ]
 }

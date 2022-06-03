@@ -15,7 +15,7 @@ root.render(
     <Routes>
       <Route path="/lily516liu/about" element={<About />}></Route>
       <Route path="/lily516liu/movie" element={<Movie />}></Route>
-      <Route path="/lily516liu" element={<App />}></Route>
+      <Route exact path="/lily516liu" element={<App />}></Route>
     </Routes>
   </BrowserRouter>
   // <React.StrictMode>

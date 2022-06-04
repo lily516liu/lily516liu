@@ -2,3 +2,27 @@ body {
   font-family: Noto Sans TC;
   color: rgba(115, 115, 115, 1);
 }
+
+.nav:hover .dot{
+  fill:#F1D675;
+}
+.search-bg{
+width: 100vw;
+height: calc(100vh - 96px);
+background-image: url(../image/Subscribe.jpeg);
+background-size: cover;
+background-position: bottom;
+}
+
+.nav-hover{
+  display: none;
+}
+.test:hover .nav-hover{
+  display: block;
+  z-index: 100px;
+  width: 70vw;
+  height: 154px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 0px 0px 5px 5px;
+}

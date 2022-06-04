@@ -2,7 +2,6 @@ body {
   font-family: Noto Sans TC;
   color: rgba(115, 115, 115, 1);
 }
-
 .nav:hover .dot{
   fill:#F1D675;
 }
@@ -13,16 +12,29 @@ background-image: url(../image/Subscribe.jpeg);
 background-size: cover;
 background-position: bottom;
 }
-
-.nav-hover{
-  display: none;
-}
-.test:hover .nav-hover{
-  display: block;
-  z-index: 100px;
-  width: 70vw;
+.nav:hover .navHover{
+  position: absolute;
+  top:96px;
+  left: 200px;
+  width: 1040px;
   height: 154px;
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(4px);
   border-radius: 0px 0px 5px 5px;
 }
+.navItem svg{
+  display: none;
+}
+.nav-text{
+  display: none;
+}
+.nav:hover .navItem svg{
+  display: block;
+}
+.nav:hover .nav-text{
+  display: block;
+}
+
+
+
+

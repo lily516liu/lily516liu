@@ -39,14 +39,22 @@ body {
   left: 200px;
   width: 1040px;
   height: 154px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(4px);
   border-radius: 0px 0px 5px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.navItem:hover path{
+  stroke:rgb(218, 185, 64);
+}
+.navItem:hover .iconFill{
+  fill:rgb(218, 185, 64);
+}
+.navItem:hover .nav-text{
+  color: rgb(218, 185, 64);
+}
 
 
 

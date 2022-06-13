@@ -2,13 +2,11 @@ body {
   font-family: Noto Sans TC;
   color: rgba(115, 115, 115, 1);
 }
-.search-bg{
-  width: 100vw;
-  height: calc(100vh - 96px);
-  background-image: url(../image/Subscribe.jpeg);
+/* .search-bg:hover{
+  background-image: url(../image/index_banner/banner-4.png);
   background-size: cover;
   background-position: bottom;
-  }
+} */
 .navHover{
   display: none;
 }
@@ -55,6 +53,60 @@ body {
 .navItem:hover .nav-text{
   color: rgb(218, 185, 64);
 }
-
-
-
+.searchBar{
+  width: 512px;
+  height: 66px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  position: relative;
+  top: 65%;
+}
+.searchText{
+  height: 34px;
+  width: 250px;
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  border-radius: 15px;
+  background-color: rgba(118, 151, 99, 0.1);
+}
+.searchText:focus{
+  border: none;
+  background-color: rgba(118, 151, 99, 0.2);
+}
+.searchBtn{
+  width: 70px;
+  height: 34px;
+  border: 1px solid #769763;
+  border-radius: 50px;
+  color: rgba(118, 151, 99, 1);
+}
+.searchBtn:hover{
+  background-color: rgba(241, 214, 117, 0.75);
+  font-weight: 600;
+  color: white;
+  border:none;
+}
+.slider{
+  width: 100vw;
+  height: calc(100vh - 96px);
+  border: 2px solid red;
+  overflow: hidden;
+}
+.slider:hover .search-bg{
+  transform: translateX(-100%);
+  transition-duration: 1.8s;
+}
+.search-bg{
+  border: 2px solid plum;
+  width: 100vw;
+  height: calc(100vh - 96px);
+  background-image: url(../image/Subscribe.jpeg);
+  background-size: cover;
+  background-position: bottom;
+}

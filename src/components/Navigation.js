@@ -1300,8 +1300,6 @@ function Navigation() {
         <div class="search-bg shrink-0"></div>
         <div class="search-bg shrink-0"></div>
         <div class="search-bg shrink-0"></div>
-        <div class="search-bg shrink-0"></div>
-        <div class="search-bg shrink-0"></div>
         {/* <div class="searchBar flex justify-center items-center">
           <label for="searchText">
             <svg

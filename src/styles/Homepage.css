@@ -95,18 +95,46 @@ body {
 .slider{
   width: 100vw;
   height: calc(100vh - 96px);
-  border: 2px solid red;
+  /* border: 2px solid red; */
   overflow: hidden;
 }
-.slider:hover .search-bg{
-  transform: translateX(-100%);
-  transition-duration: 1.8s;
-}
 .search-bg{
-  border: 2px solid plum;
+  animation-name: slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count:infinite;
+  animation-fill-mode:forwards;
+  animation-play-state:running;
+  animation-timing-function: ease-in-out;
+
+}
+.slider:hover .search-bg{
+  animation-iteration-count:2;
+  /* animation-timing-function: ease-out	; */
+  animation-timing-function:step-start;
+  /* animation-play-state:paused;  */
+}
+
+@keyframes slidein{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.search-bg{
+  /* border: 2px solid plum; */
   width: 100vw;
   height: calc(100vh - 96px);
   background-image: url(../image/Subscribe.jpeg);
   background-size: cover;
   background-position: bottom;
 }
+/* .search-bg1{
+  width: 100vw;
+  height: calc(100vh - 96px);
+  background-image: url(../image/index_participate/participate_defalut.png);
+  background-size: cover;
+  background-position: bottom;
+} */

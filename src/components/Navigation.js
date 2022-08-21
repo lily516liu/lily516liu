@@ -7,8 +7,8 @@ import "../styles/Homepage.css";
 function Navigation() {
   return (
     <>
-      <nav class="flex justify-center">
-        <div class="flex">
+      <div class="wrap">
+        <nav class="flex justify-center">
           <Link to="/lily516liu">
             <img src={Logo} alt="Logo" class="logo h-24 mr-20 cursor-pointer" />
           </Link>
@@ -1294,13 +1294,14 @@ function Navigation() {
               />
             </svg>
           </div>
+        </nav>
+        <div class="slider flex justify-center">
+          <div class="search-bg1"></div>
+          <div class="search-bg2"></div>
+          <div class="search-bg3"></div>
+          <div class="search-bg4"></div>
         </div>
-      </nav>
-      <div class="slider flex justify-center">
-        <div class="search-bg shrink-0"></div>
-        <div class="search-bg shrink-0"></div>
-        <div class="search-bg shrink-0"></div>
-        {/* <div class="searchBar flex justify-center items-center">
+        <div class="searchBar flex justify-center items-center">
           <label for="searchText">
             <svg
               width="20"
@@ -1324,7 +1325,7 @@ function Navigation() {
             value="想去哪裡？"
           ></input>
           <button class="searchBtn">Go</button>
-        </div> */}
+        </div>
       </div>
     </>
   );

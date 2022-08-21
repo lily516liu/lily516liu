@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../image/logo.svg";
-import "../styles/Homepage.css";
-
+import "../styles/Navigation.css";
 
 function Navigation() {
   return (
@@ -1295,7 +1294,7 @@ function Navigation() {
             </svg>
           </div>
         </nav>
-        <div class="slider flex justify-center">
+        {/* <div class="slider flex justify-center">
           <div class="search-bg1"></div>
           <div class="search-bg2"></div>
           <div class="search-bg3"></div>
@@ -1325,7 +1324,7 @@ function Navigation() {
             value="想去哪裡？"
           ></input>
           <button class="searchBtn">Go</button>
-        </div>
+        </div> */}
       </div>
     </>
   );

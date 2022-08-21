@@ -1,0 +1,56 @@
+body {
+  font-family: Noto Sans TC;
+  color: rgba(115, 115, 115, 1);
+}
+.wrap{
+  position: relative;
+  width: 100%;
+}
+.navHover{
+  display: none;
+}
+.navContainer{
+  height: 92px;
+  width: 700px;
+  display: flex;
+  /* border: 1px solid blueviolet; */
+  /* justify-content: space-between; */
+  justify-content:  center;
+}
+.navItem{
+  width: 150px;
+  height: 92px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.navItem svg{
+  margin:0 auto 5px;
+}
+.nav:hover .dot{
+  fill:#F1D675;
+}
+.nav:hover .navHover{
+  position: absolute;
+  top:96px;
+  left: 200px;
+  width: 1040px;
+  height: 154px;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.navItem:hover path{
+  stroke:rgb(218, 185, 64);
+}
+.navItem:hover .iconFill{
+  fill:rgb(218, 185, 64);
+}
+.navItem:hover .nav-text{
+  color: rgb(218, 185, 64);
+}

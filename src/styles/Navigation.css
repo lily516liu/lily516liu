@@ -5,6 +5,7 @@ body {
 .wrap{
   position: relative;
   width: 100%;
+  box-shadow: 0 3px 3px #ededed;
 }
 .navHover{
   display: none;

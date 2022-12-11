@@ -2,10 +2,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  padding-top: 44px;
 }
 .Attraction{
-  border: 1px solid red;
   display: flex;
   width: 1050px;
 }
@@ -21,6 +20,15 @@
 .At-rightside{
   width:100%;
   /* grid-column: 4; */
+  flex: grid;
+}
+.search{
+  grid-column: 2; 
+  border: 1px solid orangered;
+}
+.sort{
+  grid-column: 1;
+  border: 1px solid blue;
 }
 
 .text-bold{

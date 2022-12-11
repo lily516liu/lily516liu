@@ -9,6 +9,7 @@ import Homepage from "./components/Homepage";
 import Attraction from "./components/Attraction";
 import Delicacy from "./components/Delicacy";
 import Activity from "./components/Activity";
+import Footer from "./components/Footer";
 import More from "./components/More";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -22,6 +23,7 @@ root.render(
       <Route path="/lily516liu/more" element={<More />}></Route>
       <Route exact path="/lily516liu" element={<Homepage />}></Route>
     </Routes>
+    <Footer></Footer>
   </BrowserRouter>
 );
 

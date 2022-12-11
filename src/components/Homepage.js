@@ -18,6 +18,7 @@ import Enjoyimg6 from "../image/index_enjoy/enjoy_06.png";
 import Enjoyimg7 from "../image/index_enjoy/enjoy_07.png";
 import Subscribe1 from "../image/Subscribe.jpeg";
 
+
 function Homepage() {
   return (
     <>
@@ -388,7 +389,6 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div class="bg-white h-[70px] w-100% border-red-400">111</div>
     </>
   );
 }

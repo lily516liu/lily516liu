@@ -17,20 +17,6 @@
   align-items: flex-start;
   /* border: 1px solid yellowgreen; */
 }
-.At-rightside{
-  width:100%;
-  /* grid-column: 4; */
-  flex: grid;
-}
-.search{
-  grid-column: 2; 
-  border: 1px solid orangered;
-}
-.sort{
-  grid-column: 1;
-  border: 1px solid blue;
-}
-
 .text-bold{
   font-weight: 700;
   font-size: 18px;
